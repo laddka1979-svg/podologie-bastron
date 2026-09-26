@@ -2,6 +2,18 @@ const translations = {
   de: {
     meta_title: "Podologie Bastron – Praxis für medizinische Fußpflege in Osnabrück",
     nav: { home: "Start", about: "Über mich", services: "Leistungen", emp: "Beckenboden", diff: "Podologie vs. Fußpflege", prices: "Preise", gallery: "Praxis", contact: "Kontakt", book: "Termin anfragen" },
+    announce: {
+      text: "Aktuell nehmen wir keine neuen Patient:innen für Hausbesuche an – Terminvereinbarung nur in der Praxis möglich."
+    },
+    recommend: {
+      eyebrow: "Empfehlungen",
+      title: "Das empfehle ich Ihnen",
+      lead: "Vertrauenswürdige Praxen und Fachleute aus meinem Netzwerk.",
+      item1_tag: "Physiotherapie",
+      item1_title: "Physiotherapie-Praxis",
+      item1_desc: "Empfehlenswerte Praxis für physiotherapeutische Behandlungen.",
+      item1_cta: "Website besuchen →"
+    },
     hero: {
       eyebrow: "Staatlich geprüfte Podologin",
       badge: "Zulassung für alle gesetzlichen und privaten Krankenkassen",
@@ -115,6 +127,18 @@ const translations = {
   ru: {
     meta_title: "Podologie Bastron – кабинет медицинского подологического ухода в Оснабрюке",
     nav: { home: "Главная", about: "Обо мне", services: "Услуги", emp: "Тазовое дно", diff: "Подология vs педикюр", prices: "Цены", gallery: "Кабинет", contact: "Контакты", book: "Записаться" },
+    announce: {
+      text: "В данный момент мы не принимаем новых пациентов для Hausbesuch (выезд на дом) — запись возможна только в праксис."
+    },
+    recommend: {
+      eyebrow: "Рекомендации",
+      title: "Я рекомендую",
+      lead: "Проверенные практики и специалисты из моей сети контактов.",
+      item1_tag: "Физиотерапия",
+      item1_title: "Кабинет физиотерапии",
+      item1_desc: "Рекомендуемый кабинет для физиотерапевтических процедур.",
+      item1_cta: "Перейти на сайт →"
+    },
     hero: {
       eyebrow: "Государственно аттестованный подолог",
       badge: "Допуск к работе со всеми государственными и частными страховыми кассами",
@@ -228,6 +252,18 @@ const translations = {
   en: {
     meta_title: "Podologie Bastron – Medical Foot Care Practice in Osnabrück",
     nav: { home: "Home", about: "About", services: "Services", emp: "Pelvic Floor", diff: "Podology vs Pedicure", prices: "Prices", gallery: "Practice", contact: "Contact", book: "Book Appointment" },
+    announce: {
+      text: "We are currently not accepting new patients for home visits (Hausbesuch) – appointments are only available at the practice."
+    },
+    recommend: {
+      eyebrow: "Recommendations",
+      title: "My Recommendations",
+      lead: "Trusted practices and specialists from my network.",
+      item1_tag: "Physiotherapy",
+      item1_title: "Physiotherapy Practice",
+      item1_desc: "A recommended practice for physiotherapy treatments.",
+      item1_cta: "Visit Website →"
+    },
     hero: {
       eyebrow: "State-Certified Podologist",
       badge: "Approved provider for all statutory and private health insurances",
@@ -341,6 +377,18 @@ const translations = {
   tr: {
     meta_title: "Podologie Bastron – Osnabrück'te Tıbbi Ayak Bakımı Muayenehanesi",
     nav: { home: "Ana Sayfa", about: "Hakkımda", services: "Hizmetler", emp: "Pelvik Taban", diff: "Podoloji vs Pedikür", prices: "Fiyatlar", gallery: "Muayenehane", contact: "İletişim", book: "Randevu Al" },
+    announce: {
+      text: "Şu anda ev ziyaretleri (Hausbesuch) için yeni hasta kabul etmiyoruz – randevu yalnızca muayenehanede mümkündür."
+    },
+    recommend: {
+      eyebrow: "Öneriler",
+      title: "Önerdiklerim",
+      lead: "Ağımdan güvenilir muayenehaneler ve uzmanlar.",
+      item1_tag: "Fizyoterapi",
+      item1_title: "Fizyoterapi Muayenehanesi",
+      item1_desc: "Fizyoterapi tedavileri için önerilen bir muayenehane.",
+      item1_cta: "Web Sitesini Ziyaret Et →"
+    },
     hero: {
       eyebrow: "Devlet Onaylı Podolog",
       badge: "Tüm yasal ve özel sağlık sigortaları için yetkili sağlayıcı",

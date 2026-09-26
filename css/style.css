@@ -183,6 +183,23 @@ nav.main-nav a:hover { color: var(--gold-light); }
   cursor: pointer;
 }
 
+/* Aktuelles / announcement bar */
+.announce-bar {
+  margin-top: 96px;
+  background: var(--gold);
+  color: var(--espresso);
+}
+.announce-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: .85rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.announce-icon { flex-shrink: 0; font-size: 1rem; }
+
 /* Hero */
 .hero {
   position: relative;
@@ -205,7 +222,7 @@ nav.main-nav a:hover { color: var(--gold-light); }
   grid-template-columns: 1.1fr .9fr;
   gap: 50px;
   align-items: center;
-  padding-top: 96px;
+  padding-top: 40px;
 }
 .hero h1 {
   font-size: clamp(2.3rem, 5vw, 3.6rem);
@@ -450,6 +467,44 @@ nav.main-nav a:hover { color: var(--gold-light); }
 }
 .nutri-banner .eyebrow { margin-bottom: 4px; }
 .nutri-banner .btn { flex-shrink: 0; }
+
+/* Recommendations */
+.recommend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+.recommend-card {
+  display: block;
+  background: var(--cream);
+  border: 1px solid rgba(196,162,96,.35);
+  border-radius: var(--radius);
+  padding: 30px 26px;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.recommend-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -22px rgba(10,74,58,.4);
+  border-color: var(--gold);
+}
+.recommend-tag {
+  display: inline-block;
+  font-size: .7rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: .6em;
+}
+.recommend-card h3 { font-size: 1.15rem; margin-bottom: 8px; }
+.recommend-card p { font-size: .9rem; color: #4b5750; margin: 0 0 16px; }
+.recommend-link {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--emerald);
+}
+.recommend-card:hover .recommend-link { color: var(--gold); }
 
 /* Services */
 .services-grid {

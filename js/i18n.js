@@ -9,9 +9,9 @@ const translations = {
       eyebrow: "Empfehlungen",
       title: "Das empfehle ich Ihnen",
       lead: "Vertrauenswürdige Praxen und Fachleute aus meinem Netzwerk.",
-      item1_tag: "Physiotherapie",
-      item1_title: "Physiotherapie-Praxis",
-      item1_desc: "Empfehlenswerte Praxis für physiotherapeutische Behandlungen.",
+      item1_tag: "Tibetische Heilmassage",
+      item1_title: "Tibetische_heil_massage",
+      item1_desc: "Entspannende und tiefenwirksame Massagen in Osnabrück.",
       item1_cta: "Website besuchen →"
     },
     hero: {
@@ -134,9 +134,9 @@ const translations = {
       eyebrow: "Рекомендации",
       title: "Я рекомендую",
       lead: "Проверенные практики и специалисты из моей сети контактов.",
-      item1_tag: "Физиотерапия",
-      item1_title: "Кабинет физиотерапии",
-      item1_desc: "Рекомендуемый кабинет для физиотерапевтических процедур.",
+      item1_tag: "Тибетский целительный массаж",
+      item1_title: "Tibetische_heil_massage",
+      item1_desc: "Расслабляющий и глубокий массаж в Оснабрюке.",
       item1_cta: "Перейти на сайт →"
     },
     hero: {
@@ -259,9 +259,9 @@ const translations = {
       eyebrow: "Recommendations",
       title: "My Recommendations",
       lead: "Trusted practices and specialists from my network.",
-      item1_tag: "Physiotherapy",
-      item1_title: "Physiotherapy Practice",
-      item1_desc: "A recommended practice for physiotherapy treatments.",
+      item1_tag: "Tibetan Healing Massage",
+      item1_title: "Tibetische_heil_massage",
+      item1_desc: "Relaxing, deep-tissue massages in Osnabrück.",
       item1_cta: "Visit Website →"
     },
     hero: {
@@ -384,9 +384,9 @@ const translations = {
       eyebrow: "Öneriler",
       title: "Önerdiklerim",
       lead: "Ağımdan güvenilir muayenehaneler ve uzmanlar.",
-      item1_tag: "Fizyoterapi",
-      item1_title: "Fizyoterapi Muayenehanesi",
-      item1_desc: "Fizyoterapi tedavileri için önerilen bir muayenehane.",
+      item1_tag: "Tibet Şifa Masajı",
+      item1_title: "Tibetische_heil_massage",
+      item1_desc: "Osnabrück'te rahatlatıcı, derin doku masajları.",
       item1_cta: "Web Sitesini Ziyaret Et →"
     },
     hero: {

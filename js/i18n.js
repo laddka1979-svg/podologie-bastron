@@ -113,7 +113,7 @@ const translations = {
     contact: {
       eyebrow: "Kontakt", title: "Vereinbaren Sie Ihren Termin",
       lead: "Ich freue mich auf Ihre Anfrage – telefonisch, per E-Mail oder persönlich.",
-      addr_t: "Adresse", phone_t: "Telefon", email_t: "E-Mail", hours_t: "Termine", hours_v: "Nach Vereinbarung",
+      addr_t: "Adresse", phone_t: "Telefon", email_t: "E-Mail", email_note: "Für allgemeine Anfragen. Termine bitte nur telefonisch.", hours_t: "Termine", hours_v: "Nach Vereinbarung",
       book_t: "Rufen Sie mich an"
     },
     footer: {
@@ -242,7 +242,7 @@ const translations = {
     contact: {
       eyebrow: "Контакты", title: "Запишитесь на приём",
       lead: "Буду рада вашему обращению — по телефону, email или лично.",
-      addr_t: "Адрес", phone_t: "Телефон", email_t: "Email", hours_t: "Приём", hours_v: "По предварительной записи",
+      addr_t: "Адрес", phone_t: "Телефон", email_t: "Email", email_note: "Для общих вопросов. Запись на приём — только по телефону.", hours_t: "Приём", hours_v: "По предварительной записи",
       book_t: "Позвонить мне"
     },
     footer: {
@@ -371,7 +371,7 @@ const translations = {
     contact: {
       eyebrow: "Contact", title: "Book Your Appointment",
       lead: "I look forward to hearing from you – by phone, email, or in person.",
-      addr_t: "Address", phone_t: "Phone", email_t: "Email", hours_t: "Appointments", hours_v: "By arrangement",
+      addr_t: "Address", phone_t: "Phone", email_t: "Email", email_note: "For general inquiries. Please book appointments by phone only.", hours_t: "Appointments", hours_v: "By arrangement",
       book_t: "Call Me"
     },
     footer: {
@@ -500,7 +500,7 @@ const translations = {
     contact: {
       eyebrow: "İletişim", title: "Randevunuzu Alın",
       lead: "Telefonla, e-posta ile veya şahsen mesajınızı bekliyorum.",
-      addr_t: "Adres", phone_t: "Telefon", email_t: "E-posta", hours_t: "Randevu", hours_v: "Randevu ile",
+      addr_t: "Adres", phone_t: "Telefon", email_t: "E-posta", email_note: "Genel sorular için. Randevular yalnızca telefonla alınmalıdır.", hours_t: "Randevu", hours_v: "Randevu ile",
       book_t: "Beni Arayın"
     },
     footer: {

@@ -601,6 +601,7 @@ nav.main-nav a:hover { color: var(--gold-light); }
 }
 .contact-info h4 { margin-bottom: .2em; font-size: 1.05rem; }
 .contact-info p { margin: 0; color: #4b5750; font-size: .92rem; }
+.contact-note { display: block; margin-top: 4px; font-size: .78rem; color: #8a8378; }
 .map-wrap {
   border-radius: var(--radius);
   overflow: hidden;

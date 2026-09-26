@@ -12,7 +12,11 @@ const translations = {
       item1_tag: "Tibetische Heilmassage",
       item1_title: "Tibetische_heil_massage",
       item1_desc: "Entspannende und tiefenwirksame Massagen in Osnabrück.",
-      item1_cta: "Website besuchen →"
+      item1_cta: "Website besuchen →",
+      item2_tag: "Physiotherapie",
+      item2_title: "Physio-Intensiv",
+      item2_desc: "Physiotherapiepraxis in Osnabrück.",
+      item2_cta: "Auf Google Maps ansehen →"
     },
     hero: {
       eyebrow: "Staatlich geprüfte Podologin",
@@ -137,7 +141,11 @@ const translations = {
       item1_tag: "Тибетский целительный массаж",
       item1_title: "Tibetische_heil_massage",
       item1_desc: "Расслабляющий и глубокий массаж в Оснабрюке.",
-      item1_cta: "Перейти на сайт →"
+      item1_cta: "Перейти на сайт →",
+      item2_tag: "Физиотерапия",
+      item2_title: "Physio-Intensiv",
+      item2_desc: "Кабинет физиотерапии в Оснабрюке.",
+      item2_cta: "Посмотреть на Google Maps →"
     },
     hero: {
       eyebrow: "Государственно аттестованный подолог",
@@ -262,7 +270,11 @@ const translations = {
       item1_tag: "Tibetan Healing Massage",
       item1_title: "Tibetische_heil_massage",
       item1_desc: "Relaxing, deep-tissue massages in Osnabrück.",
-      item1_cta: "Visit Website →"
+      item1_cta: "Visit Website →",
+      item2_tag: "Physiotherapy",
+      item2_title: "Physio-Intensiv",
+      item2_desc: "Physiotherapy practice in Osnabrück.",
+      item2_cta: "View on Google Maps →"
     },
     hero: {
       eyebrow: "State-Certified Podologist",
@@ -387,7 +399,11 @@ const translations = {
       item1_tag: "Tibet Şifa Masajı",
       item1_title: "Tibetische_heil_massage",
       item1_desc: "Osnabrück'te rahatlatıcı, derin doku masajları.",
-      item1_cta: "Web Sitesini Ziyaret Et →"
+      item1_cta: "Web Sitesini Ziyaret Et →",
+      item2_tag: "Fizyoterapi",
+      item2_title: "Physio-Intensiv",
+      item2_desc: "Osnabrück'te fizyoterapi muayenehanesi.",
+      item2_cta: "Google Haritalar'da Görüntüle →"
     },
     hero: {
       eyebrow: "Devlet Onaylı Podolog",

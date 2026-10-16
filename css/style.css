@@ -669,6 +669,8 @@ footer .legal-links a:hover { color: var(--gold-light); }
   position: relative;
 }
 .modal h3 { margin-top: 0; }
+.modal h4 { font-size: 1.02rem; margin: 1.4em 0 .4em; }
+.modal p { font-size: .9rem; color: #4b5750; margin: 0 0 .8em; }
 .modal .close-btn {
   position: absolute; top: 16px; right: 20px;
   background: none; border: none; font-size: 1.4rem; cursor: pointer; color: var(--emerald);

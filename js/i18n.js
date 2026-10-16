@@ -1,6 +1,7 @@
 const translations = {
   de: {
     meta_title: "Podologie Bastron – Praxis für medizinische Fußpflege in Osnabrück",
+    map: { note: "Beim Laden der Karte werden Daten (z. B. Ihre IP-Adresse) an Google übertragen. Details in der Datenschutzerklärung.", btn: "Karte laden" },
     nav: { home: "Start", about: "Über mich", services: "Leistungen", emp: "Beckenboden", diff: "Podologie vs. Fußpflege", prices: "Preise", gallery: "Praxis", contact: "Kontakt", book: "Termin anfragen" },
     announce: {
       text: "Aktuell nehmen wir keine neuen Patient:innen für Hausbesuche an – Terminvereinbarung nur in der Praxis möglich."
@@ -130,6 +131,7 @@ const translations = {
   },
   ru: {
     meta_title: "Podologie Bastron – кабинет медицинского подологического ухода в Оснабрюке",
+    map: { note: "При загрузке карты данные (например, ваш IP-адрес) передаются в Google. Подробнее — в политике конфиденциальности.", btn: "Загрузить карту" },
     nav: { home: "Главная", about: "Обо мне", services: "Услуги", emp: "Тазовое дно", diff: "Подология vs педикюр", prices: "Цены", gallery: "Кабинет", contact: "Контакты", book: "Записаться" },
     announce: {
       text: "В данный момент мы не принимаем новых пациентов для Hausbesuch (выезд на дом) — запись возможна только в праксис."
@@ -259,6 +261,7 @@ const translations = {
   },
   en: {
     meta_title: "Podologie Bastron – Medical Foot Care Practice in Osnabrück",
+    map: { note: "Loading the map transfers data (e.g. your IP address) to Google. See the privacy policy for details.", btn: "Load map" },
     nav: { home: "Home", about: "About", services: "Services", emp: "Pelvic Floor", diff: "Podology vs Pedicure", prices: "Prices", gallery: "Practice", contact: "Contact", book: "Book Appointment" },
     announce: {
       text: "We are currently not accepting new patients for home visits (Hausbesuch) – appointments are only available at the practice."
@@ -388,6 +391,7 @@ const translations = {
   },
   tr: {
     meta_title: "Podologie Bastron – Osnabrück'te Tıbbi Ayak Bakımı Muayenehanesi",
+    map: { note: "Harita yüklendiğinde veriler (ör. IP adresiniz) Google'a aktarılır. Ayrıntılar gizlilik politikasında.", btn: "Haritayı yükle" },
     nav: { home: "Ana Sayfa", about: "Hakkımda", services: "Hizmetler", emp: "Pelvik Taban", diff: "Podoloji vs Pedikür", prices: "Fiyatlar", gallery: "Muayenehane", contact: "İletişim", book: "Randevu Al" },
     announce: {
       text: "Şu anda ev ziyaretleri (Hausbesuch) için yeni hasta kabul etmiyoruz – randevu yalnızca muayenehanede mümkündür."

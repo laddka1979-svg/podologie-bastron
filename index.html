@@ -6,9 +6,8 @@
 <title>Podologie Bastron</title>
 <meta name="description" content="Podologie Bastron – professionelle medizinische Fußpflege in Osnabrück.">
 <link rel="icon" href="assets/img/logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/fonts.css?v=1">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 
@@ -314,11 +313,11 @@
         <a href="tel:054140722215" class="btn btn-gold" data-i18n="contact.book_t">Rufen Sie mich an</a>
       </div>
 
-      <div class="map-wrap">
-        <iframe
-          src="https://maps.google.com/maps?q=Lerchenstr.%2028%2C%2049088%20Osnabr%C3%BCck&t=&z=15&ie=UTF8&iwloc=&output=embed"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          title="Standort Podologie Bastron"></iframe>
+      <div class="map-wrap" id="map-wrap" data-map-src="https://maps.google.com/maps?q=Lerchenstr.%2028%2C%2049088%20Osnabr%C3%BCck&t=&z=15&ie=UTF8&iwloc=&output=embed">
+        <div class="map-consent">
+          <p data-i18n="map.note">Beim Laden der Karte werden Daten (z. B. Ihre IP-Adresse) an Google übertragen. Details in der Datenschutzerklärung.</p>
+          <button type="button" class="btn btn-gold" id="map-load" data-i18n="map.btn">Karte laden</button>
+        </div>
       </div>
     </div>
   </div>

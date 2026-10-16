@@ -92,6 +92,19 @@
       });
     });
 
+    const mapBtn = document.getElementById("map-load");
+    const mapWrap = document.getElementById("map-wrap");
+    if (mapBtn && mapWrap) {
+      mapBtn.addEventListener("click", () => {
+        const iframe = document.createElement("iframe");
+        iframe.src = mapWrap.getAttribute("data-map-src");
+        iframe.title = "Standort Podologie Bastron";
+        iframe.referrerPolicy = "no-referrer-when-downgrade";
+        mapWrap.innerHTML = "";
+        mapWrap.appendChild(iframe);
+      });
+    }
+
     const header = document.querySelector(".site-header");
     let lastY = window.scrollY;
     window.addEventListener("scroll", () => {
